@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>practice</title>
+</head>
+<body>
+    <form action="file.php">
+        <h1><i><u> <center>REGISTRATION FORM</center></u></i></h1>
+        <H2><b><i> <center>Personal Details</center></i></b></H2>
+        <p>NAME: <input type="text" name="name" id="101" placeholder="ENTER" required="required"></p>
+        <p>FATHERS NAME: <input type="text" name="fathers name" id="102" placeholder="ENTER" required="required"></p>
+        <p>USERNAME: <input type="text" name="username" id="103" placeholder="ENTER" required="required"></p>
+        <p>AGE: <input type="number" name="age" id="104" placeholder="ENTER" required="required"></p>
+        <p>CNIC: <input type="number" name="cnic" id="105" placeholder="ENTER" required="required"></p>
+        <p>GENDER:</p>
+        <label for="101">
+            
+            <input type="radio" name="gender" value="Male">Male
+
+        </label>
+        <label for="102">
+            <input type="radio" name="gender" value="Female">Female
+        </label>
+        <p>COUNTRY:</p>
+        <select name="country" id="country">
+            <option value="PAKISTAN">Pakistan</option>
+           </select>
+        <p>CITY</p>
+        <select name="city" id="city">
+            <option value="karachi">Karachi</option>
+            <option value="islamabad">Islamabad</option>
+            <option value="lahore">Lahore</option>
+        </select>
+        <p>
+        <label for="username">DATE OF BIRTH</label>
+        <input type="date" name="date of birth" required="required">
+        
+        </p>
+        <hr>
+
+        <h2><i><b><center>Educational Details</center></b></i></h2>
+        <p>QUALIFICATION: <select name="qualification" id="qualification" required="required">
+            <option value="Matriculation">Matriculation</option>
+            <option value="FSc">FSc</option>
+            <option value="undergraduated">Undergraduated</option>
+            <option value="graduated">Graduated</option>
+            <option value="masters">Masters</option>
+            <option value="Ph.d">Ph.d</option>
+           
+            
+        </select></p>
+        <P>Upload Your Marksheet/Degree:</P>
+            <input type="file" name="user.file"><br>
+            <input type="submit" value="Upload">  
+
+            
+        <p>CHOOSE YOUR INTEREST:</p>
+        <select name="faculty" id="faculty">
+            <option value="web development">Wev Development</option>
+            <option value="Graphic Designing">Graphic Designing</option>
+            <option value="cyber security">Cyber Security</option>
+            <option value="freelancing">Freelancing </option>
+            <option value="digital marketing">Digital Marketing</option>
+        </select>
+        <p>CHOOSE YOUR CAMPUS:</p>
+        <select name="campus" id="campus" required="required">
+            <option value="gulshan">Gulshan</option>
+            <option value="malir">Malir</option>
+            <option value="gulshan e hadeed">Gulshan-e-Hadeed</option>
+            <option value="aliabad">Aliabad</option>
+            
+        </select>
+        <p>PUT YOUR SKILLS/ACJIEVEMENTS HERE:</p>
+        <textarea name="achivements" id="101" maxlength="200">Achievements/Skills</textarea>
+
+
+
+       <hr> <h2><i><b><center>Contact Details</center></b></i></h2>
+       <fieldset>
+        <legend>Contact Details:</legend>
+        <label>Email: <br>
+        <input type="text" name="email" required="required" placeholder="ENTER"></label><br>
+        <label>phone: <br>
+            <input type="text" name="phone" required="required" placeholder="ENETR">
+        </label> <br>
+        <label> Telephone: <br>
+            <input type="text" name="telephone" required="required" placeholder="ENTER">
+        </label>
+        </fieldset>
+           <fieldset>
+            <h2><b><i><center>CREATE ACCOUNT</center></i></b></h2>
+            <legend><i>Create an account:</i></legend>
+            <labe>Username: <br>
+                <input type="text" name="username" placeholder="ENTER" required="required">
+            </label><br>
+            <label>Password: <br>
+                <input type="password" name="password" placeholder="ENTER" required="required"> 
+             </label><br>
+             <label>Confirm Password: <br>
+                <input type="password" name="password" placeholder="ENTER" required="required">
+             </label><br>
+
+           </fieldset>
+
+
+           <textarea name="feedback" id="feedback" maxlength="800">Do you write something?
+            
+           </textarea>
+
+           <p>subscribe?
+            <input type="checkbox">
+           </p>
+           <center>
+        <input type="submit" value="submit"></center>
+
+
+
+
+
+
+
+
+    </form>
+</body>
+</html>
